@@ -11,10 +11,10 @@ from .views import (
 
 router = DefaultRouter()
 
-router.register("likes", ReviewLikeViewSet, basename="review-like")
-router.register("bookmarks", ReviewBookmarkViewSet, basename="review-bookmark")
-router.register("comments", ReviewCommentViewSet, basename="review-comment")
-router.register("reports", ReviewReportViewSet, basename="review-report")
+router.register('likes', ReviewLikeViewSet, basename='review-like')
+router.register('bookmarks', ReviewBookmarkViewSet, basename='review-bookmark')
+router.register('comments', ReviewCommentViewSet, basename='review-comment')
+router.register('reports', ReviewReportViewSet, basename='review-report')
 
 
 urlpatterns = [

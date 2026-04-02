@@ -3,5 +3,5 @@ from .views import SentimentAnalysisAPIView
 
 
 urlpatterns = [
-    path("sentiment/", SentimentAnalysisAPIView.as_view()),
+    path('sentiment/', SentimentAnalysisAPIView.as_view()),
 ]
